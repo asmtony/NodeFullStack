@@ -1,0 +1,51 @@
+-- npm init creates the package.json (enter for each question)
+npm init
+-- install express
+npm install --save express
+
+-- create a file index.js at root lvl and add ...
+const express = require('express');
+
+add a .gitgnore file at the root and add to it node_modules
+
+--start the node server
+node index.js 
+
+localhost:5000/auth/google
+localhost:5000/api/current_user
+--when a dev script added to package.json
+npm run dev
+
+dev mongo
+https://www.mongodb.com/cloud/atlas
+p: Anntony321456!!
+
+dbuser - amadmin
+pass: Pusny32Ann!
+
+prod mongo
+user myproduser
+password AHdNWHbT7zYDe8KW
+--  mongodb+srv://myproduser:AHdNWHbT7zYDe8KW@cluster0-hpqvu.mongodb.net/anything?retryWrites=true&w=majority
+
+npm install --save mongoose
+
+npm install --save cookie-session
+
+Heroku open
+https://lit-peak-84887.herokuapp.com/auth/google
+https://lit-peak-84887.herokuapp.com/
+
+prod clientid - 499596704158-6n8003hsuvb43a2r3tov0sdu3nh110f6.apps.googleusercontent.com
+prod secret - pI93VrOdt6H3Z0ZYVKAv1Omz
+
+git add .
+git commit -m "message test"
+git push heroku master
+heroku open
+
+npx create-react-app client
+
+npm install http-proxy-middleware --save
+
+npm install --save redux react-redux react-router
